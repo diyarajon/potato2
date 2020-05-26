@@ -4,6 +4,7 @@ body{
     margin: 0;
     background: #efe2ba;
     text-align: center;
+    display:inline-block;
 }
 
 .heading h1{
