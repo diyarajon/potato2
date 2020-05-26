@@ -27,13 +27,14 @@ body{
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 5px;
-    border-bottom: 3px;
-    border-color: #333333;
     color: #F13C20;
 }
 
 .box:hover{
     text-decoration: underline;
+    background-origin: padding-box;
+    border-bottom: 3px;
+    border-color: #333333;
 }
 
 
