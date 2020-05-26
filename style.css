@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #efe2ba;
+    background: #ffffff;
     text-align: center;
 }
 .heading{
@@ -16,16 +16,16 @@ body{
 }
 
 .heading p{
-    color: #D79922;
+    color: #002868;
 }
 
 .box{
-    
-    background:#a8d0e6;
+    background:#333333;
     line-height: 1.6;
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 5px;
+    border-color: #333333;
 }
 
 
