@@ -13,7 +13,7 @@ body{
 
 .heading h1{
     color: #F13C20;
-    text-shadow: 4px 4px #002868;
+    text-shadow: 2px 2px #002868;
 }
 
 .heading p{
@@ -30,5 +30,7 @@ body{
     border-color: #333333;
 }
 
-
+.cities{
+    text-decoration: none;
+}
 
