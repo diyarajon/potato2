@@ -19,6 +19,13 @@ body{
     color: #D79922;
 }
 
+.box{
+    background:#a8d0e6;
+    line-height: 1.6;
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
 
 
 
