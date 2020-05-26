@@ -21,7 +21,7 @@ body{
     color: #002868;
 }
 
-.box{
+.box a{
     text-decoration: none;
     line-height: 1.6;
     padding: 1px;
