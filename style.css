@@ -4,7 +4,7 @@ body{
     text-align: center;
 }
 .heading{
-    background:#a8d0e6;
+    background:#ffffff;
     line-height: 1.6;
     padding: 1px;
     margin-bottom: 20px;
@@ -21,6 +21,7 @@ body{
 }
 
 .box{
+    text-decoration: none;
     line-height: 1.6;
     padding: 1px;
     margin-bottom: 20px;
