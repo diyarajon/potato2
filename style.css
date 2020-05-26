@@ -8,6 +8,7 @@ body{
     line-height: 1.6;
     padding: 0px;
     margin: 0px;
+    border-radius: 15px;
 }
 
 .heading h1{
