@@ -1,0 +1,7 @@
+{
+    "name":"Asia Cafe",
+    "info":[
+        { "takeout": "yes" },
+        { "gift card":"yes"}
+    ]
+}
