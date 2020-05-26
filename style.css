@@ -3,6 +3,9 @@ body{
     background: #efe2ba;
     text-align: center;
 }
+.heading{
+    background:#a8d0e6;
+}
 
 .heading h1{
     color: #F13C20;
