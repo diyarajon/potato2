@@ -22,7 +22,7 @@ body{
 
 h3 a{
     text-decoration: underline;
-    text-decoration-color: #002868;
+    text-decoration-color: #F13C20;
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -36,9 +36,13 @@ h3 a{
 }
 
 .cities a{
-    color: #002868;
+    color: #F13C20;
     text-decoration: underline;
     text-decoration-color: #002868;
+}
+
+.box a{
+    color:F13C20;
 }
 
 
