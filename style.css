@@ -22,7 +22,8 @@ body{
 }
 
 h3 a{
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #002868;
     line-height: 1.6;
     padding: 1px;
     margin-bottom: 20px;
@@ -34,6 +35,12 @@ h3 a{
     background-origin: padding-box;
     border-bottom: 3px;
     box-shadow: inset 0 -0.85em 0 #002868;
+}
+
+.cities a{
+    color: #002868;
+    text-decoration: underline;
+    text-decoration-color: #002868;
 }
 
 
