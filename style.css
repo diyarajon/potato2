@@ -4,7 +4,6 @@ body{
     text-align: center;
 }
 .heading{
-    background:#be1c1c;
     line-height: 1.6;
     padding: 1px;
     margin-bottom: 20px;
@@ -34,7 +33,7 @@ h3 a{
     text-decoration: underline;
     background-origin: padding-box;
     border-bottom: 3px;
-    box-shadow: inset 0 -0.85em 0 #002868;
+    box-shadow: inset 0 -0.85em 0 #eeff00;
 }
 
 .cities a{
