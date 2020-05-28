@@ -1,7 +1,24 @@
 {
-    "name":"Asia Cafe",
-    "info":[
-        { "takeout": "yes" },
-        { "gift card":"yes"}
-    ]
+    "restaurant":[
+        {
+            "name":"Asia Cafe",
+            "dineIn": "yes" ,
+            "takeOut":"yes",
+            "giftCard":"yes"   
+        },
+
+        {
+            "name":"Contigo",
+            "dineIn": "no" ,
+            "takeOut":"no",
+            "giftCard":"yes"   
+        },
+
+        {
+            "name":"Asia Cafe",
+            "dineIn": "yes" ,
+            "takeOut":"yes",
+            "giftCard":"no"   
+        }
+]
 }
