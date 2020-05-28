@@ -70,6 +70,7 @@ body {
 .box {
     padding: 70px 0;
     text-align: center;
-    background-color: rgba(226, 121, 0, 0.849);
-    border-radius: 10px;
+    background-color: #ff5050;
+    border-radius: 5px;
+    box-shadow: #ff7474;
   }
