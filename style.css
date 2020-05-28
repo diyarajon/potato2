@@ -72,3 +72,37 @@ body {
     background-color: rgb(226, 30, 0);
     border-radius: 5px;
   }
+
+
+  .container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr .2fr 1.2fr .8fr ;
+    grid-template-areas: 
+    "heading heading"
+    "nav nav"
+    "box1 box2"
+    "footer footer";
+}
+
+.heading{
+    grid-area: heading;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.box1{
+    grid-area: box1;
+}
+
+.box2{
+    grid-area: box2;
+}
+
+
+footer{
+    grid-area: footer;
+}
