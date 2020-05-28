@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #ffffff;
+    background: #555555;
     text-align: center;
 }
 .heading{
@@ -58,4 +58,11 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
+}
+
+
+.options h3{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
 }
