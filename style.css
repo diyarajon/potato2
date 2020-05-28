@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #555555;
+    background: #ffffff;
     text-align: center;
 }
 .heading{
@@ -66,3 +66,8 @@ body {
     height: 50vh;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.box {
+    padding: 70px 0;
+    text-align: center;
+  }
