@@ -12,17 +12,21 @@
 
 .heading{
     background: salmon;
+    grid-area: heading;
 }
 
 nav{
     background-color: tan;
+    grid-area: nav;
 }
 
-.cities{
+.city{
     background-color: sandybrown;
+    grid-area: city;
 }
 
 
 footer{
     background-color: sienna;
+    grid-area: footer;
 }
