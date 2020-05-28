@@ -74,27 +74,4 @@ body {
   }
 
 
-  .container{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3fr .2fr .5fr .8fr ;
-    grid-template-areas: 
-    "heading heading"
-    "nav nav"
-    "box1 box2"
-    "footer footer";
-}
-
-.heading{
-    grid-area: heading;
-}
-
-nav{
-    grid-area: nav;
-}
-
-
-footer{
-    grid-area: footer;
-}
+  
