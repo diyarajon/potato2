@@ -70,5 +70,6 @@ body {
 .box {
     padding: 70px 0;
     text-align: center;
-    background-color: azure;
+    background-color: rgba(226, 121, 0, 0.849);
+    border-radius: 10px;
   }
