@@ -11,27 +11,22 @@
 }
 
 .heading{
-    background: salmon;
     grid-area: heading;
 }
 
 nav{
-    background-color: tan;
     grid-area: nav;
 }
 
 .box1{
-    background-color: sandybrown;
     grid-area: box1;
 }
 
 .box2{
-    background-color: sandybrown;
     grid-area: box2;
 }
 
 
 footer{
-    background-color: sienna;
     grid-area: footer;
 }
