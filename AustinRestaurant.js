@@ -11,7 +11,7 @@ xmlhttp.onreadystatechange = function() {
     document.body.appendChild(restaurantTitle);
     restaurantTitle.href = "something.com";
     var para = document.createElement("P");
-    para.innerText = `takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard}`;
+    para.innerText = `takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myobj.restaurant[i].dineIn}`;
     document.body.appendChild(para);
       }
     
