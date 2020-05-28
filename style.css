@@ -68,5 +68,5 @@ body {
     text-align: center;
     background-color: #e28800;
     border-radius: 5px;
-    box-shadow: #f6ff74;
+    box-shadow: 5px 10px hsl(0, 100%, 59%);
   }
