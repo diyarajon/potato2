@@ -78,7 +78,7 @@ body {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3fr .2fr 1.2fr .8fr ;
+    grid-template-rows: 3fr .2fr .5fr .8fr ;
     grid-template-areas: 
     "heading heading"
     "nav nav"
