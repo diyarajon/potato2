@@ -59,7 +59,7 @@ body {
 
 .options h3{
     display: grid;
-    height: 50vh;
+    height: 70vh;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
