@@ -6,7 +6,7 @@
     grid-template-areas: 
     "heading heading"
     "nav nav"
-    "city city"
+    "box1 box2"
     "footer footer";
 }
 
@@ -20,9 +20,14 @@ nav{
     grid-area: nav;
 }
 
-.city{
+.box1{
     background-color: sandybrown;
-    grid-area: city;
+    grid-area: box1;
+}
+
+.box2{
+    background-color: sandybrown;
+    grid-area: box2;
 }
 
 
