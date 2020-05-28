@@ -4,3 +4,16 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr .2fr 1.2fr .8fr ;
 }
+
+.heading{
+    background: salmon;
+}
+
+.box{
+    background-color: sandybrown;
+}
+
+
+footer{
+    background-color: sienna;
+}
