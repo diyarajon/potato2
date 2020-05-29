@@ -53,9 +53,8 @@ body {
 
 .cities h3{
     display: grid;
-    height: 100vh;
+    height: 30vh;
     grid-template-columns: 1fr 1fr;
-    grid-gap: .2rem;
 }
 
 
