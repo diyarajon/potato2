@@ -3,6 +3,11 @@ body{
     background: #ebebd3;
     text-align: center;
 }
+
+h1{
+    background-color: tan;
+}
+
 .heading{
     line-height: 1.6;
     padding: 1px;
