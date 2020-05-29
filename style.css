@@ -8,6 +8,10 @@ h1{
     background-color: tan;
 }
 
+a{
+    grid-template-columns: 1fr 1fr;   
+}
+
 .heading{
     line-height: 1.6;
     padding: 1px;
