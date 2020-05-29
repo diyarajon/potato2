@@ -17,8 +17,8 @@ xmlhttp.onreadystatechange = function() {
     
   }
 };
-if(xmlhttp == AustinRestaurant.json)
-{
-    xmlhttp.open("GET", "AustinRestaurant.json", true);
+
+xmlhttp.open("GET", "AustinRestaurant.json", true);
+xmlhttp.open("GET", "RRRestaurant.json", true)
 xmlhttp.send();
-}
+
