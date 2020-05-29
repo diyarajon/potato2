@@ -3,21 +3,21 @@
         {
             "name":"Asia Cafe",
             "dineIn": "yes" ,
-            "takeOut":"yes",
+            "takeout":"yes",
             "giftCard":"yes"   
         },
 
         {
             "name":"Contigo",
             "dineIn": "no" ,
-            "takeOut":"no",
+            "takeout":"no",
             "giftCard":"yes"   
         },
 
         {
             "name":"Asia Cafe",
             "dineIn": "yes" ,
-            "takeOut":"yes",
+            "takeout":"yes",
             "giftCard":"no"   
         }
 ]
