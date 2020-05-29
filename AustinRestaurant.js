@@ -9,16 +9,22 @@ xmlhttp.onreadystatechange = function() {
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.innerText = myObj.restaurant[i].name;
     document.body.appendChild(restaurantTitle);
-    restaurantTitle.href = "something.com";
+    restaurantTitle.href = "index.html";
     var para = document.createElement("P");
     para.innerText = `takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`;
     document.body.appendChild(para);
+    var a = document.createElement("a");
+    var link = document.createTextNode("this is link");
+    a.appendChild(link);
+    a.title = "this is link";
+    a.href = "https://www.geeksforgeeks.org";
+    document.body.appendChild(a);
+
       }
     
   }
 };
 
 xmlhttp.open("GET", "AustinRestaurant.json", true);
-xmlhttp.open("GET", "RRRestaurant.json", true)
 xmlhttp.send();
 
