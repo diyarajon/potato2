@@ -7,6 +7,7 @@ xmlhttp.onreadystatechange = function() {
       document.getElementById("demo").innerHTML = myObj.restaurant[i].name;
     document.getElementById("demo").innerHTML +=" " + myObj.restaurant[i].dineIn;
     var restaurantTitle = document.createElement("h1");
+    restaurantTitle.id = 'someid';
     restaurantTitle.innerText = myObj.restaurant[i].name;
     document.body.appendChild(restaurantTitle);
     restaurantTitle.href = "index.html";
