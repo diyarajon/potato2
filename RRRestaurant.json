@@ -1,0 +1,25 @@
+{
+    "restaurant":[
+        {
+            "name":"Italian",
+            "dineIn": "yes" ,
+            "takeout":"yes",
+            "giftCard":"yes"   
+        },
+
+        {
+            "name":"Ajo",
+            "dineIn": "no" ,
+            "takeout":"no",
+            "giftCard":"yes"   
+        },
+
+        {
+            "name":"Urban",
+            "dineIn": "yes" ,
+            "takeout":"yes",
+            "giftCard":"no"   
+        }
+]
+}
+   
