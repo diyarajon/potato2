@@ -27,6 +27,22 @@ xmlhttp.onreadystatechange = function() {
   }
 };
 
+const createGrid = () => {
+  const markup = `
+  <div class="container" id="container" style="display: grid;
+                                               border: 1px black solid; 
+                                               height:100%; 
+                                               width: 100%">
+  </div> `
+  document.body.innerHTML += markup
+}
+
+const layoutGrid = (height, width) => {
+  const container = document.getElementById('container')
+  container.style.gridTemplateColumns = `repeat(${width}, 1fr)`
+  container.style.gridTemplateRows = `repeat(${height}, 1fr)`
+}
+
 xmlhttp.open("GET", "AustinRestaurant.json", true);
 xmlhttp.send();
 
