@@ -8,6 +8,7 @@ body{
     padding: 1px;
     margin-bottom: 20px;
     border-radius: 10px;
+    background-color: #f4d35e;
 }
 
 .heading h1{
@@ -68,11 +69,7 @@ body {
 .box {
     padding: 70px 0;
     text-align: center;
-    background-color: #ebebd3;
+    background-color: #f4d35e;
     border-radius: 5px;
   }
 
-.footer{
-    background
-}
-  
