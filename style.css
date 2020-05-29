@@ -1,6 +1,6 @@
 body{
     font-family: 'Muli', sans-serif;
-    background: #ffffff;
+    background: #ebebd3;
     text-align: center;
 }
 .heading{
@@ -11,13 +11,13 @@ body{
 }
 
 .heading h1{
-    color: #F13C20;
-    text-shadow: 2px 2px #002868;
+    color: #ee964b;
+    text-shadow: 2px 2px #083d77;
     size: 40px;
 }
 
 .heading p{
-    color: #002868;
+    color: #083d77;
 }
 
 h3 a{
@@ -30,19 +30,19 @@ h3 a{
     text-decoration: underline;
     background-origin: padding-box;
     border-bottom: 3px;
-    box-shadow: 5px 10px #F13C20;
+    box-shadow: 5px 10px #f4d35e;
 }
 
 .cities a{
-    color: #000000;
+    color: #083d77;
     text-decoration: underline;
-    text-decoration-color: #000000;
+    text-decoration-color: #083d77;
 }
 
 .options a{ 
-    color: #000000;
+    color: #083d77;
     text-decoration: underline;
-    text-decoration-color: #000000;
+    text-decoration-color: #083d77;
 }
 
 
@@ -68,9 +68,11 @@ body {
 .box {
     padding: 70px 0;
     text-align: center;
-    background-color: rgb(226, 30, 0);
+    background-color: #ebebd3;
     border-radius: 5px;
   }
 
-
+.footer{
+    background
+}
   
