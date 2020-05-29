@@ -18,6 +18,7 @@ xmlhttp.onreadystatechange = function() {
     a.appendChild(link);
     a.title = "this is link";
     a.href = "https://www.geeksforgeeks.org";
+    a.id = 'someid';
     document.body.appendChild(a);
 
       }
