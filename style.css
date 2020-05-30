@@ -8,7 +8,7 @@ h1{
     background-color: tan;
 }
 
-script{
+script a{
     grid-template-columns: 1fr 1fr;   
 }
 
