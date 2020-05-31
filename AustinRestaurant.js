@@ -16,7 +16,6 @@ xmlhttp.onreadystatechange = function() {
     var para = document.createElement("P");
     para.innerText = `takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`;
     document.body.appendChild(para);
-    document.body.appendChild(restaurantTitle + para);
     var a = document.createElement("a");
     var link = document.createTextNode("this is link");
     a.appendChild(link);
