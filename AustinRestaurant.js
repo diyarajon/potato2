@@ -10,15 +10,15 @@ xmlhttp.onreadystatechange = function() {
     restaurantTitle.id = 'someid';
     restaurantTitle.className = "hello";
     restaurantTitle.innerText = myObj.restaurant[i].name;
+    document.body.appendChild(restaurantTitle);
     //document.body.appendChild(restaurantTitle);
     restaurantTitle.href = "index.html";
     var para = document.createElement("P");
-    para.className = "hello";
     para.innerText = `takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`;
+    document.body.appendChild(para);
     document.body.appendChild(restaurantTitle + para);
     var a = document.createElement("a");
     var link = document.createTextNode("this is link");
-    link.className = "hello";
     a.appendChild(link);
     a.title = "this is link";
     a.href = "https://www.geeksforgeeks.org";
