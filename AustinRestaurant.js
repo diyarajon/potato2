@@ -7,20 +7,20 @@ xmlhttp.onreadystatechange = function() {
       document.getElementById("demo").innerHTML = myObj.restaurant[i].name;
     document.getElementById("demo").innerHTML +=" " + myObj.restaurant[i].dineIn;
     var restaurantTitle = document.createElement("h1");
-    restaurantTitle.id = 'someid';
-    restaurantTitle.className = "hello"
+    restaurantTitle.className = "hello" + i;
     restaurantTitle.innerText = myObj.restaurant[i].name;
     //document.body.appendChild(restaurantTitle);
     restaurantTitle.href = "index.html";
     var para = document.createElement("P");
     para.innerText = `takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`;
+    para.className = "hello" + i;
     document.body.appendChild(restaurantTitle + para);
     var a = document.createElement("a");
     var link = document.createTextNode("this is link");
+    link.className = "hello" + i;
     a.appendChild(link);
     a.title = "this is link";
     a.href = "https://www.geeksforgeeks.org";
-    a.id = 'someid';
     document.body.appendChild(a);
 
       }
