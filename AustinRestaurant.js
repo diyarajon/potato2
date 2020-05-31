@@ -8,6 +8,7 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("demo").innerHTML +=" " + myObj.restaurant[i].dineIn;
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.id = 'someid';
+    restaurantTitle.className = "hello";
     restaurantTitle.innerText = myObj.restaurant[i].name;
     document.body.appendChild(restaurantTitle);
     restaurantTitle.href = "index.html";
@@ -20,6 +21,7 @@ xmlhttp.onreadystatechange = function() {
     a.title = "this is link";
     a.href = "https://www.geeksforgeeks.org";
     a.id = 'someid';
+    a.className = "hello";
     document.body.appendChild(a);
 
       }
