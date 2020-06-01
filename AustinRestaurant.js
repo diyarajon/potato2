@@ -10,7 +10,7 @@ iDiv.className = 'block';
 document.getElementsByTagName('body').appendChild(iDiv);
 
     var restaurantTitle = document.createElement("h1");
-    restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
+    restaurantTitle.id = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
     restaurantTitle.id = 'someid';
     document.body.appendChild(restaurantTitle);
