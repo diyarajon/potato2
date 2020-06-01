@@ -29,3 +29,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.hello h1{
+    grid-column: span 2;
+}
