@@ -4,11 +4,6 @@ xmlhttp.onreadystatechange = function() {
     var myObj = JSON.parse(this.responseText);
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
-    //var something = `hello:${myObj.restaurant[i].takeout}`;
-    //var innerDiv = document.createElement('div');
-    //innerDiv.className = 'block';
-    //document.body.appendChild(innerDiv);
-
     var iDiv = document.createElement('div');
 iDiv.id = 'block';
 iDiv.className = 'block';
@@ -17,8 +12,6 @@ document.getElementsByTagName('body').appendChild(iDiv);
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
-    //document.getElementById("block").innerHTML = restaurantTitle;
-    //document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
     restaurantTitle.id = 'someid';
     document.body.appendChild(restaurantTitle);
     
