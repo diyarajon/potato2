@@ -7,18 +7,20 @@ xmlhttp.onreadystatechange = function() {
     var something = `hello:${myObj.restaurant[i].takeout}`;
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.id = 'someid';
-    restaurantTitle.className = `hello:${myObj.restaurant[i].takeout}`;
+    restaurantTitle.className = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
     document.body.appendChild(restaurantTitle);
     
     restaurantTitle.href = "index.html";
     var para = document.createElement("P");
     para.innerText = `takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`;
+    para.className = `hello${myObj.restaurant[i].name}`;
     document.body.appendChild(para);
 
     var a = document.createElement("a");
     var link = document.createTextNode("this is link");
     a.appendChild(link);
+    a.className = `hello${myObj.restaurant[i].name}`;
     a.href = "https://www.geeksforgeeks.org";
     document.body.appendChild(a);
 
