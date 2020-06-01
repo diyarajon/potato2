@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function() {
     {
     var something = `hello:${myObj.restaurant[i].takeout}`;
     var innerDiv = document.createElement('div');
-    innerDiv.className = 'block';
+    innerDiv.id = 'block';
 
     document.getElementById('block').innerHTML += myObj.restaurant[i].name;
     var restaurantTitle = document.createElement("h1");
