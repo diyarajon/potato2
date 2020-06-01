@@ -4,11 +4,11 @@ xmlhttp.onreadystatechange = function() {
     var myObj = JSON.parse(this.responseText);
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
-    var something = `hello:${myObj.restaurant[i].takeout}`;
+    //var something = `hello:${myObj.restaurant[i].takeout}`;
     var innerDiv = document.createElement('div');
     innerDiv.id = 'block';
 
-    document.getElementById('block').innerHTML += 'hi';
+    //document.getElementById('block').innerHTML += 'hi';
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.id = 'someid';
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
