@@ -6,9 +6,10 @@ xmlhttp.onreadystatechange = function() {
     {
     //var something = `hello:${myObj.restaurant[i].takeout}`;
     var innerDiv = document.createElement('div');
-    innerDiv.id = 'block';
+    innerDiv.className = 'block';
 
-    //document.getElementById('block').innerHTML += 'hi';
+    document.getElementById("demo").innerHTML = myObj.restaurant[i].name;
+    document.getElementById("demo").innerHTML +=" " + myObj.restaurant[i].dineIn;
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.id = 'someid';
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
