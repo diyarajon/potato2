@@ -5,9 +5,13 @@ xmlhttp.onreadystatechange = function() {
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
     var something = `hello:${myObj.restaurant[i].takeout}`;
+    var innerDiv = document.createElement('div');
+    innerDiv.className = 'block';
+
+    document.getElementById('block').innerHTML += myObj.restaurant[i].name;
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.id = 'someid';
-    restaurantTitle.className = `hello${myObj.restaurant[i].name}`;
+    restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
     document.body.appendChild(restaurantTitle);
     
