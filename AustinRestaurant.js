@@ -8,8 +8,8 @@ xmlhttp.onreadystatechange = function() {
     var innerDiv = document.createElement('div');
     innerDiv.className = 'block';
 
-    document.getElementById("demo").innerHTML = myObj.restaurant[i].name;
-    document.getElementById("demo").innerHTML +=" " + myObj.restaurant[i].dineIn;
+    document.getElementById("block").innerHTML = myObj.restaurant[i].name;
+    document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.id = 'someid';
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
