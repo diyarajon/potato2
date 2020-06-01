@@ -4,9 +4,10 @@ xmlhttp.onreadystatechange = function() {
     var myObj = JSON.parse(this.responseText);
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
+    var something = "hello" + i;
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.id = 'someid';
-    restaurantTitle.className = "hello";
+    restaurantTitle.className = something;
     restaurantTitle.innerText = myObj.restaurant[i].name;
     document.body.appendChild(restaurantTitle);
     
