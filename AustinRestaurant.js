@@ -12,6 +12,7 @@ xmlhttp.onreadystatechange = function() {
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
+    innerDiv.innerHTML += restaurantTitle;
     //document.getElementById("block").innerHTML = restaurantTitle;
     //document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
     restaurantTitle.id = 'someid';
