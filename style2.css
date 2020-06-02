@@ -30,6 +30,6 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
-.hello h1{
+h3{
     grid-column: span 2;
 }
