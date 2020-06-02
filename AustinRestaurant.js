@@ -29,6 +29,12 @@ xmlhttp.onreadystatechange = function() {
     a.className = `hello${myObj.restaurant[i].name}`;
     a.href = "https://www.geeksforgeeks.org";
     document.body.appendChild(a);*/
+    var tagName = document.createElement("h1");
+    var textName = document.createTextNode(`hello${myObj.restaurant[i].name}`);
+    tagName.appendChild(textName); 
+    var elementName = document.getElementById(`block${myObj.restaurant[i].name}`);
+    elementName.appendChild(tagName);
+
     var tag = document.createElement("p");
     var text = document.createTextNode("Tutorix is the best e-learning platform");
     tag.appendChild(text); 
