@@ -30,13 +30,13 @@ xmlhttp.onreadystatechange = function() {
     a.href = "https://www.geeksforgeeks.org";
     document.body.appendChild(a);*/
     var tagName = document.createElement("h1");
-    var textName = document.createTextNode(`hello${myObj.restaurant[i].name}`);
+    var textName = document.createTextNode(myObj.restaurant[i].name);
     tagName.appendChild(textName); 
     var elementName = document.getElementById(`block${myObj.restaurant[i].name}`);
     elementName.appendChild(tagName);
 
     var tag = document.createElement("p");
-    var text = document.createTextNode("Tutorix is the best e-learning platform");
+    var text = document.createTextNode(`takeout:${myObj.restaurant[i].takeout} gift card:${myObj.restaurant[i].giftCard} dine in:${myObj.restaurant[i].dineIn}`);
     tag.appendChild(text); 
     var element = document.getElementById(`block${myObj.restaurant[i].name}`);
     element.appendChild(tag);
