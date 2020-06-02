@@ -9,10 +9,13 @@ xmlhttp.onreadystatechange = function() {
     innerDiv.className = 'block';
     document.body.appendChild(innerDiv);
 
+    var theDiv = document.getElementById("<ID_OF_THE_DIV>");
+var content = document.createTextNode("<YOUR_CONTENT>");
+theDiv.appendChild(content);
+
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
-    innerDiv.innerText += restaurantTitle;
     //document.getElementById("block").innerHTML = restaurantTitle;
     //document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
     restaurantTitle.id = 'someid';
