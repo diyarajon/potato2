@@ -12,10 +12,10 @@ xmlhttp.onreadystatechange = function() {
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
-    document.getElementById("block").innerHTML = restaurantTitle;
+    //document.getElementById("block").innerHTML = restaurantTitle;
     //document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
     restaurantTitle.id = 'someid';
-    document.body.appendChild(restaurantTitle);
+    document.innerDiv.appendChild(restaurantTitle);
     
     restaurantTitle.href = "index.html";
     var para = document.createElement("P");
