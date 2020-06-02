@@ -15,7 +15,7 @@ xmlhttp.onreadystatechange = function() {
     //document.getElementById("block").innerHTML = restaurantTitle;
     //document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
     restaurantTitle.id = 'someid';
-    document.innerDiv.appendChild(restaurantTitle);
+    document.block.appendChild(restaurantTitle);
     
     restaurantTitle.href = "index.html";
     var para = document.createElement("P");
