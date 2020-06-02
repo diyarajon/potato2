@@ -9,8 +9,8 @@ xmlhttp.onreadystatechange = function() {
     innerDiv.className = 'block';
     document.body.appendChild(innerDiv);
 
-    var theDiv = document.getElementById("<ID_OF_THE_DIV>");
-var content = document.createTextNode("<YOUR_CONTENT>");
+    var theDiv = document.getElementById(innerDiv);
+var content = document.createTextNode("content");
 theDiv.appendChild(content);
 
     var restaurantTitle = document.createElement("h1");
