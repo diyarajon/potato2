@@ -6,8 +6,8 @@ xmlhttp.onreadystatechange = function() {
     {
     //var something = `hello:${myObj.restaurant[i].takeout}`;
     var innerDiv = document.createElement('div');
-    innerDiv.className = 'block';
-    innerDiv.id = 'block';
+    innerDiv.className = `block${myObj.restaurant[i].name}`;
+    innerDiv.id = `block${myObj.restaurant[i].name}`;
     document.body.appendChild(innerDiv);
 /*
     var restaurantTitle = document.createElement("h1");
@@ -32,7 +32,7 @@ xmlhttp.onreadystatechange = function() {
     var tag = document.createElement("p");
     var text = document.createTextNode("Tutorix is the best e-learning platform");
     tag.appendChild(text);
-    var element = document.getElementById("block");
+    var element = document.getElementById(`block${myObj.restaurant[i].name}`);
     element.appendChild(tag);
 
       }
