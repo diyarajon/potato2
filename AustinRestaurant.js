@@ -31,7 +31,7 @@ xmlhttp.onreadystatechange = function() {
     document.body.appendChild(a);*/
     var tag = document.createElement("p");
     var text = document.createTextNode("Tutorix is the best e-learning platform");
-    tag.appendChild(text);
+    tag.appendChild(text); 
     var element = document.getElementById(`block${myObj.restaurant[i].name}`);
     element.appendChild(tag);
 
