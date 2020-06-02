@@ -8,28 +8,11 @@ body{
     grid-area: heading;
 }
 
-nav{
-    grid-area: nav;
-}
-
-.box1{
-    grid-area: box1;
-}
-
-.box2{
-    grid-area: box2;
-}
-
-
-footer{
-    grid-area: footer;
-}
-
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-h3{
+.hello{
     grid-column: span 2;
 }
