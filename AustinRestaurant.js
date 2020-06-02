@@ -12,9 +12,7 @@ xmlhttp.onreadystatechange = function() {
     var restaurantTitle = document.createElement("h1");
     restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
-    document.getElementsByClassName('block').innerText = 'content';
-    document.getElementById("block").innerHTML = restaurantTitle;
-    //document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
+    document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
     restaurantTitle.id = 'someid';
     //document.innerDiv.appendChild(restaurantTitle);
     
@@ -26,7 +24,7 @@ xmlhttp.onreadystatechange = function() {
 
     var a = document.createElement("a");
     var link = document.createTextNode("this is link");
-    a.appendChild(link);
+    a.appendChild(link); 
     a.className = `hello${myObj.restaurant[i].name}`;
     a.href = "https://www.geeksforgeeks.org";
     document.body.appendChild(a);
