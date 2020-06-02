@@ -4,15 +4,16 @@ xmlhttp.onreadystatechange = function() {
     var myObj = JSON.parse(this.responseText);
     for(var i = 0; i < myObj.restaurant.length;i++)
     {
-    var something = `hello:${myObj.restaurant[i].takeout}`;
+    //var something = `hello:${myObj.restaurant[i].takeout}`;
     var innerDiv = document.createElement('div');
     innerDiv.className = 'block';
+    innerDiv.id = 'block';
     document.body.appendChild(innerDiv);
-
+/*
     var restaurantTitle = document.createElement("h1");
-    restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
+    //restaurantTitle.di = `hello${myObj.restaurant[i].name}`;
     restaurantTitle.innerText = myObj.restaurant[i].name;
-    document.getElementById("block").innerHTML +=" " + myObj.restaurant[i].dineIn;
+    document.getElementsByClassName('block').innerHTML +=" " + myObj.restaurant[i].dineIn;
     restaurantTitle.id = 'someid';
     //document.innerDiv.appendChild(restaurantTitle);
     
@@ -27,7 +28,12 @@ xmlhttp.onreadystatechange = function() {
     a.appendChild(link); 
     a.className = `hello${myObj.restaurant[i].name}`;
     a.href = "https://www.geeksforgeeks.org";
-    document.body.appendChild(a);
+    document.body.appendChild(a);*/
+    var tag = document.createElement("p");
+    var text = document.createTextNode("Tutorix is the best e-learning platform");
+    tag.appendChild(text);
+    var element = document.getElementById("block");
+    element.appendChild(tag);
 
       }
     
