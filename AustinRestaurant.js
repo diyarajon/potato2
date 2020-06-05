@@ -46,6 +46,8 @@ xmlhttp.onreadystatechange = function() {
   }
 };
 
-xmlhttp.open("GET", "AustinRestaurant.json", true);
+var fileName = location.href.split("/").slice(-1); 
+
+xmlhttp.open("GET", fileName + '.json', true);
 xmlhttp.send();
 
